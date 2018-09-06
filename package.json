@@ -1,0 +1,29 @@
+{
+  "name": "unicornranch",
+  "version": "0.1.0",
+  "description": "unicorn location tracking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mollyfish/basic-jquery-webpage.git"
+  },
+  "keywords": [
+    "unicorn",
+    "ranch",
+    "locations"
+  ],
+  "author": " <kent.molly@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mollyfish/basic-jquery-webpage/issues"
+  },
+  "homepage": "https://github.com/mollyfish/basic-jquery-webpage#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13"
+  }
+}

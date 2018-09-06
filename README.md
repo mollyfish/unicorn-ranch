@@ -1,3 +1,6 @@
-# Basic Webpage Template with jQuery
+# Unicorn Ranch
 
-Index.html, css, and jQuery set up and ready to go.
+Simple application for keeping track of our unicorns.
+
+Goal: at-a-glance unicorn locations
+

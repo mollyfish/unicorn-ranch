@@ -1,9 +1,11 @@
 var mongoose = require('mongoose');
 
-var unicornSchema = new mongoose.Schema({
+var Schema = mongoose.Schema;
+
+var unicornSchema = new Schema({
   name: String,
   location: String,
   favoriteFood: String
 });
 
-module.exports = mongoose.model('Unicorn', unicornSchema);
+module.exports = mongoose.model('Unicorn', unicornSchema, 'Unicorn');

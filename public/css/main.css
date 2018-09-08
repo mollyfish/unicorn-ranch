@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(255,156,166);
+}
+
+body {
+  font-family: 'Neucha', cursive;
+  font-size: 1em;
+  text-align: center;
+  background: rgb(255,156,166);
+  background: linear-gradient(rgba(255,205,177,1) 0%, rgba(255,252,161,1) 20%, rgba(154,247,180,1) 35%, rgba(123,217,255,1) 50%, rgba(209,157,255,1) 65%, rgba(255,171,244,1) 80%, rgba(255,156,166,1) 100%);
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Chango', cursive;
+  font-size: 200%;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 140%;
+  font-weight: 800;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 110%;
+  margin: 0.5em 0;
+}
+
+ul li {
+  background: #fff;
+  text-align: left;
+  border: 1px solid #474747;
+  padding: 0.5em 0.5em 1em 0.5em;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  font-size: 140%;
+}
+
+select {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(70, 70, 70);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+select:focus {
+  background-color: rgb(255, 78, 255);
+}
+
+.move-tools {
+  float: right;
+}
+
+.unicorn-name {
+  display: block;
+}
+
+.unicorn-food {
+  margin-top: 0.5em;
+  display: inline-block;
+  font-size: 80%;
+}

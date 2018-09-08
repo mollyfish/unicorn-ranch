@@ -1,12 +1,16 @@
 var mongoose = require('mongoose');
 var express = require('express');
 var app = express();
-var unicornsRouter = require(__dirname + '/routes/unicornRoutes');
+
+// line 6 had the error - the database names did not match here and in the CLI
+// if a database is not generated with the name given here, it can be created
+// in the CLI and the name can be provided here
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/Unicorn');
 var port = process.env.PORT || 3000;
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/unicorns_dev');
-
 app.use(express.static(__dirname + '/public'));
+
+var unicornsRouter = require(__dirname + '/routes/unicornRoutes');
 
 app.use('/api', unicornsRouter);
 

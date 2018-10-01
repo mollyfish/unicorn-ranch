@@ -31,5 +31,5 @@ app.listen(port, function() {
 // if your database does not show up, continue with the next command anyway and it will be created
 // > use database_name
 // switched to db database_name
-// > db.workouts.find().pretty()
-// returns all workout objects from the database
+// > db.unicorns.find().pretty()
+// returns all unicorns objects from the database

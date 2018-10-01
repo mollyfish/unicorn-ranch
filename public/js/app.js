@@ -47,11 +47,11 @@ $(function() {
     // check current location of unicorn to be moved and 
     // update the DOM to reflect the move by creating a new <li> with all the relevant info
     if ($element.val() === "pasture") {
-      $('#location-' + $element.val()).append('<li><span class="unicorn-name">' + name + '</span> <span class="unicorn-food">Loves: ' + food + '</span> <span class="move-tools"> ' + moveChoicesFromPasture + '</span></li>');
+      $('#location-' + $element.val()).append('<li><span class="unicorn-name">' + name + '</span> <span class="unicorn-food">' + food + '</span> <span class="move-tools"> ' + moveChoicesFromPasture + '</span></li>');
     } else if ($element.val() === "trails") {
-      $('#location-' + $element.val()).append('<li><span class="unicorn-name">' + name + '</span> <span class="unicorn-food">Loves: ' + food + '</span> <span class="move-tools"> ' + moveChoicesFromTrails + '</span></li>');
+      $('#location-' + $element.val()).append('<li><span class="unicorn-name">' + name + '</span> <span class="unicorn-food">' + food + '</span> <span class="move-tools"> ' + moveChoicesFromTrails + '</span></li>');
     } else {
-      $('#location-' + $element.val()).append('<li><span class="unicorn-name">' + name + '</span> <span class="unicorn-food">Loves: ' + food + '</span> <span class="move-tools"> ' + moveChoicesFromBarn + '</span></li>');
+      $('#location-' + $element.val()).append('<li><span class="unicorn-name">' + name + '</span> <span class="unicorn-food">' + food + '</span> <span class="move-tools"> ' + moveChoicesFromBarn + '</span></li>');
     }
     // remove the <li> showing the unicorn's old location
     $element.parent().parent().remove();
